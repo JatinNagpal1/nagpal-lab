@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: Nagpal Lab
 date: 2022-10-24
 type: landing
@@ -14,67 +13,39 @@ sections:
         filename: welcome.jpg
       text: |
         <br>
-        
         We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish, *C. elegans*, and translational frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
+
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      title: Research themes
+      text: |
+        - Microbiome–brain communication and neurodevelopment  
+        - Stress physiology and social behaviour  
+        - Environmental exposures (exposome) and resilience  
+        - Cross-species discovery: zebrafish and *C. elegans*
+
+        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   - block: collection
     content:
-      title: Latest Preprints
-      text: ""
+      title: Latest News
+      count: 5
+      page_type: post
+      order: desc
+    design:
+      view: card
+      columns: '1'
+
+  - block: collection
+    content:
+      title: Latest Publications
       count: 5
       filters:
         folders:
           - publication
-        publication_type: 'article'
     design:
       view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
       columns: '1'
 ---
