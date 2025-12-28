@@ -8,14 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Nagpal
+        Lab
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish, *C. elegans*, and translational frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.
   
   - block: collection
     content:
