@@ -21,12 +21,8 @@ sections:
       text: |
         - Microbiome–brain communication and neurodevelopment  
         - Stress physiology and social behaviour  
-        - Environmental exposures (exposome) and resilience  
-        - Cross-species discovery: zebrafish and _C. elegans_
-
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+        - Environmental exposures (exposome) - Host (genome) - Microbiota (microbiome) Interactions
+        - Cross-species discovery: Zebrafish and _C. elegans_
 
   - block: collection
     content:
