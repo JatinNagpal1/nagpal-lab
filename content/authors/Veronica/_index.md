@@ -14,7 +14,7 @@ status:
   icon: 🔬
 
 # Role/position
-role: PostDoc (Academic-Industry Partnership Project)
+role: PostDoc (Academia-Industry Partnership Project)
 
 # Organizations/Affiliations
 # organizations:
@@ -32,7 +32,7 @@ role: PostDoc (Academic-Industry Partnership Project)
 
 education:
   courses:
-    - course: PhD in Neuroscience 
+    - course: PhD 
       institution: 
       year: 
     - course: M.Sc. 
