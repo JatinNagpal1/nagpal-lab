@@ -18,8 +18,8 @@ role: Lecturer in Pharmacology & Therapeutics / Senior Scientist
 
 # Organizations/Affiliations
 organizations:
-  - name: University College Cork
-    url: https://www.ucc.ie/
+  - name: Department of Pharmacology & Therapeutics, University College Cork
+    url: https://www.ucc.ie/en/pharmacology/
   - name: APC Microbiome Ireland
     url: https://apc.ucc.ie/
 
@@ -62,6 +62,10 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/jatin-nagpal-neuroscience-microbiome-scicomm-edi/ # Add your linkedin
+  - icon: bluesky
+    icon_pack: fab
+    link: https://web-cdn.bsky.app/profile/jatinnagpal.bsky.social
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To use: copy your CV to `static/files/cv.pdf` and uncomment the lines below.
