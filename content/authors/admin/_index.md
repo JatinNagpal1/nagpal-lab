@@ -37,11 +37,11 @@ interests:
 
 education:
   courses:
-    - course: PhD in Neuroscience (Optogenetics & C. elegans)
-      institution: University of Frankfurt / Max Planck Institute
+    - course: PhD in Neuroscience (Optogenetics & C. elegans neurobiology)
+      institution: University of Frankfurt
       year: 
     - course: M.Sc. in Neuroscience
-      institution: University of Göttingen / IMPRS
+      institution: University of Göttingen / International Max Planck Research School
       year: 
     - course: B.Sc. (Hons) in Biochemistry
       institution: University of Delhi
@@ -55,13 +55,13 @@ social:
     link: 'mailto:jatin.nagpal@ucc.ie'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/ # Add your twitter handle if you have one
+    link: https://x.com/JatinNagpal87 # Add your twitter handle if you have one
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/ # Add your scholar link
+    link: https://scholar.google.com/citations?hl=en&user=s9w1Xb0AAAAJ&view_op=list_works&sortby=pubdate # Add your scholar link
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/ # Add your linkedin
+    link: https://www.linkedin.com/in/jatin-nagpal-neuroscience-microbiome-scicomm-edi/ # Add your linkedin
 
 # Link to a PDF of your resume/CV from the About widget.
 # To use: copy your CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -75,7 +75,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Principal Investigator
 ---
 
 I received my B.Sc.(Hons) in Biochemistry (First Class) from University of Delhi, India during which I was also a summer research fellow in the Evolutionary and Organismal Biology Unit at the Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India.
