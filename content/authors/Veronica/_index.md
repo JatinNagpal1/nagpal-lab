@@ -18,10 +18,10 @@ role: PostDoc (Academic-Industry Partnership Project)
 
 # Organizations/Affiliations
 # organizations:
-  # - name: Department of Pharmacology & Therapeutics, University College Cork
-    url: https://www.ucc.ie/en/pharmacology/
-  # - name: APC Microbiome Ireland
-    url: https://apc.ucc.ie/
+  # name: Department of Pharmacology & Therapeutics, University College Cork
+  # url: https://www.ucc.ie/en/pharmacology/
+  # name: APC Microbiome Ireland
+  # url: https://apc.ucc.ie/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research focuses on microbiome–brain communication across development, stress, and social behaviour.
