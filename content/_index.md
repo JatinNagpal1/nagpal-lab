@@ -10,7 +10,7 @@ sections:
         Nagpal
         Lab
       image:
-        filename: welcome.jpg
+        filename: welcome.png
       text: |
         <br>
         We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish, C. elegans, and translational frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.
