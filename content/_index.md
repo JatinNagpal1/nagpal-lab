@@ -17,12 +17,13 @@ sections:
 
   - block: markdown
     content:
-      title: Research themes
+      title: Research interests
       text: |
-        - Microbiome–brain communication and neurodevelopment  
-        - Stress physiology and social behaviour  
+        - Microbiome–brain communication and Neurodevelopment  
+        - Stress Physiology and Social Behaviour  
         - Environmental exposures (exposome) - Host (genome) - Microbiota (microbiome) Interactions
         - Cross-species discovery: Zebrafish and _C. elegans_
+        - Optogenetic tool development and implementation
 
   - block: collection
     content:
