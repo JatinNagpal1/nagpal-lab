@@ -15,7 +15,7 @@ sections:
         </div>
 
 
-  - block: hero
+  - block: markdown
     content:
       title: Research themes
       text: |
