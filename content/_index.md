@@ -11,7 +11,7 @@ sections:
         <img src="/media/welcome.png" alt="Nagpal Lab" class="home-hero-img" />
         <div class="home-hero-text">
           <h1>Nagpal Lab</h1>
-          <p>We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish, C. elegans, and translational frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.</p>
+          <p>We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish and C. elegans as scalable and mechanistic model organisms, and cross-species frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.</p>
         </div>
 
 
