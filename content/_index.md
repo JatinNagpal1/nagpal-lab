@@ -13,7 +13,7 @@ sections:
         filename: welcome.png
       text: |
         <br>
-        We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish, C. elegans, and translational frameworks, our work integrates neurobiology, microbiome science, and environmental exposures.
+        We study microbiome–brain communication across development, with a focus on stress and social behaviour. Using zebrafish and C. elegans as model organisms, and a cross-species approach, our work integrates neurobiology, microbiome science, and environmental exposures.
 
   - block: markdown
     content:
