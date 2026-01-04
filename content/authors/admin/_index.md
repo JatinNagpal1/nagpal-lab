@@ -53,9 +53,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:jatin.nagpal@ucc.ie'
-  - icon: twitter
-    icon_pack: fab
-    link: https://x.com/JatinNagpal87 # Add your twitter handle if you have one
+   # icon: twitter
+   # icon_pack: fab
+   # link: https://x.com/JatinNagpal87 # Add your twitter handle if you have one
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=s9w1Xb0AAAAJ&view_op=list_works&sortby=pubdate # Add your scholar link
