@@ -18,10 +18,10 @@ sections:
       title: Research Interests
       text: |
         - Microbiome–Brain Communication and Neurodevelopment  
-        - Stress Physiology and Social Behaviour  
+        - Stress and Social Neurobiology & Behaviour  
         - Environmental Exposures (exposome) - Host (genome) - Microbiota (microbiome) Interactions
         - Cross-species discovery: Zebrafish and _C. elegans_ and Mice
-        - Optogenetic tool development and implementation
+        - Optogenetic Tool Development and Implementation
 
   - block: collection
     content:
