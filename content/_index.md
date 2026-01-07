@@ -20,7 +20,7 @@ sections:
         - Microbiome–Brain Communication and Neurodevelopment  
         - Stress Physiology and Social Behaviour  
         - Environmental Exposures (exposome) - Host (genome) - Microbiota (microbiome) Interactions
-        - Cross-species discovery: Zebrafish and _C. elegans_
+        - Cross-species discovery: Zebrafish and _C. elegans_ and Mice
         - Optogenetic tool development and implementation
 
   - block: collection
