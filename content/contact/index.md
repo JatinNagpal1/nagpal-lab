@@ -15,7 +15,7 @@ sections:
       address:
         street: APC Microbiome Ireland, BioSciences Institute, College Road, University College Cork
         city: Cork
-        region: CA
+        # region: 
         postcode: 'T12YT20'
         country: Ireland
         country_code: IRE
