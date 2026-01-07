@@ -33,11 +33,11 @@ role: PostDoc (Academia-Industry Partnership Project). Co-supervised with Dr. Ma
 # education:
   # courses:
    # - course: PhD 
-      institution: 
-      year: 
+    # institution: 
+     # year: 
    # - course: M.Sc. 
-      institution: 
-      year: 
+     # institution: 
+     # year: 
     
 
 # Social/Academic Networking
