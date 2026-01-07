@@ -13,10 +13,10 @@ sections:
       email: NagpalLab@ucc.ie
       phone: +353 (0)21 420 5771
       address:
-        street: BioSciences Institute, College Road, University College Cork
+        street: APC Microbiome Ireland, BioSciences Institute, College Road, University College Cork
         city: Cork
         region: CA
-        postcode: '94305'
+        postcode: 'T12YT20'
         country: Ireland
         country_code: IRE
       coordinates:
