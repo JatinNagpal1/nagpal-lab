@@ -14,11 +14,11 @@ status:
   icon: 🔬
 
 # Role/position
-role: Lecturer in Pharmacology & Therapeutics / Senior Scientist
+role: Lecturer in Pharmacology & Therapeutics 
 
 # Organizations/Affiliations
 organizations:
-  - name: Department of Pharmacology & Therapeutics, University College Cork
+  - name: Department of Pharmacology & Therapeutics, School of Medicine and School of Pharmacy, University College Cork
     url: https://www.ucc.ie/en/pharmacology/
   - name: APC Microbiome Ireland
     url: https://apc.ucc.ie/
