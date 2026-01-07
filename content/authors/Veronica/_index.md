@@ -14,7 +14,8 @@ status:
   icon: 🔬
 
 # Role/position
-role: PostDoc (Academia-Industry Partnership Project) - Co-supervised with Dr. Maria R. Aburto and Prof. Ger Clarke
+role: PostDoc (Academia-Industry Partnership Project)
+Co-supervised with Dr. Maria R. Aburto and Prof. Ger Clarke
 
 # Organizations/Affiliations
 # organizations:
