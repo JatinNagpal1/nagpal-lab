@@ -12,7 +12,7 @@ authors:
 - Neeraj Pandey
 - John F Cryan
 - Gerard Clarke
-- ' others'
+- Jatin Nagpal
 date: '2025-01-01'
 publishDate: '2026-01-07T17:42:51.162616Z'
 publication_types:
