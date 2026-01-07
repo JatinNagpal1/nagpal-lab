@@ -14,7 +14,7 @@ status:
   icon: 🔬
 
 # Role/position
-role: PhD student (Research Ireland Pathway Project). Co-supervised with Prof. John F Cryan.
+role: PhD student (Research Ireland Pathway Project). Co-supervised with Prof. John F. Cryan.
 
 # Organizations/Affiliations
 # organizations:
