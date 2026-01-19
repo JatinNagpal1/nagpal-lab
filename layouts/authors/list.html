@@ -1,34 +1,61 @@
-{{- define "main" -}}
-
-{{/* Author profile page (override) */}}
-
-{{ if not .File }}
+{{ define "main" }}
 <div class="universal-wrapper pt-3">
-  <h1>{{ .Title }}</h1>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-4 col-lg-3 text-center">
+
+      {{/* Author avatar if you have content/authors/admin/avatar.jpg/png */}}
+      {{ with .Resources.GetMatch "avatar*" }}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Title }}"
+             class="avatar avatar-circle"
+             style="width:220px;height:220px;object-fit:cover;">
+      {{ end }}
+
+    </div>
+
+    <div class="col-12 col-md-8 col-lg-7">
+      <h1 class="mb-1">{{ .Title }}</h1>
+
+      {{ with .Params.role }}
+        <p class="lead mb-2">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Params.organizations }}
+        <p class="mb-2">
+          {{ range $i, $org := . }}
+            {{ if $i }} · {{ end }}
+            {{ if $org.url }}
+              <a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>
+            {{ else }}
+              {{ $org.name }}
+            {{ end }}
+          {{ end }}
+        </p>
+      {{ end }}
+
+      {{ with .Params.bio }}
+        <p class="mb-3">{{ . }}</p>
+      {{ end }}
+
+      {{ with .Params.social }}
+        {{ $labels := dict "envelope" "Email" "google-scholar" "Google Scholar" "linkedin" "LinkedIn" "bluesky" "Bluesky" "x-twitter" "X" "twitter" "X" }}
+        <p class="mb-4">
+          {{ range . }}
+            {{ $label := default (humanize .icon) (index $labels .icon) }}
+            <a href="{{ .link }}" target="_blank" rel="noopener" style="margin-right:1rem;">
+              {{ $label }}
+            </a>
+          {{ end }}
+        </p>
+      {{ end }}
+
+      {{ if .Content }}
+        <div class="article-style">
+          {{ .Content }}
+        </div>
+      {{ end }}
+
+      {{/* Intentionally NOT listing latest publications/posts */}}
+    </div>
+  </div>
 </div>
 {{ end }}
-
-<section id="profile-page" class="pt-5">
-  <div class="container">
-
-    {{/* Show the About block (avatar, role, socials, etc.) */}}
-    {{ if .File }}
-      {{ $widget := "blocks/v1/about.html" }}
-      {{ $username := (path.Base .File.Dir) }}
-      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
-      {{ partial $widget $params }}
-    {{ end }}
-
-    {{/* Show your long bio text from content/authors/admin/_index.md */}}
-    {{ if .Content }}
-      <div class="prose max-w-none mt-6">
-        {{ .Content }}
-      </div>
-    {{ end }}
-
-    {{/* Intentionally removed the default "Latest" list */}}
-
-  </div>
-</section>
-
-{{- end -}}
