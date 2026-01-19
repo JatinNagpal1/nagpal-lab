@@ -14,6 +14,7 @@ sections:
           - Principal Investigator
           - PostDocs
           - PhD Students
+          - MRes Students
           - Administration
           - Visitors
           - Alumni
