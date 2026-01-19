@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+{{/* Author profile page (override) */}}
+
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+
+    {{/* Show the About block (avatar, role, socials, etc.) */}}
+    {{ if .File }}
+      {{ $widget := "blocks/v1/about.html" }}
+      {{ $username := (path.Base .File.Dir) }}
+      {{ $params := dict "wcPage" $ "wcBlock" . "author" $username }}
+      {{ partial $widget $params }}
+    {{ end }}
+
+    {{/* Show your long bio text from content/authors/admin/_index.md */}}
+    {{ if .Content }}
+      <div class="prose max-w-none mt-6">
+        {{ .Content }}
+      </div>
+    {{ end }}
+
+    {{/* Intentionally removed the default "Latest" list */}}
+
+  </div>
+</section>
+
+{{- end -}}
